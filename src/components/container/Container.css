@@ -1,0 +1,18 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.container .first {
+  border-right: 6px solid #1c476c;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.container .second {
+  height: 100vh;
+  background: "#000";
+}
+/*# sourceMappingURL=Container.css.map */

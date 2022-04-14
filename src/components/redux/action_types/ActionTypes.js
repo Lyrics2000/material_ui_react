@@ -1,0 +1,6 @@
+export const OVERUNDER = "OVER_UNDER";
+export const THREEWAYRESULT = "1X2";
+export const TWOWAYRESULT = "TWOWAYRESULT";
+export const BOTHTEAMSTOSCORE = "BOTHTEAMSTOSCORE";
+export const EVENODDS = "EVENODDS";
+export const ASSIANHANDICAP = "ASSIANHANDICAP";

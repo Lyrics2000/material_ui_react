@@ -1,0 +1,76 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #1c476c;
+}
+
+.header .image {
+  background: inherit;
+}
+
+.header .image:hover {
+  cursor: pointer;
+}
+
+.header .image h1 {
+  background: inherit;
+  font-size: 23px;
+  color: white;
+  font-weight: 400;
+  padding: 20px 10px;
+}
+
+.header .image h1 span {
+  background: inherit;
+  color: red;
+}
+
+@media (max-width: 480px) {
+  .header .image h1 {
+    background: inherit;
+    font-size: 18px;
+  }
+}
+
+.header nav {
+  background: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header nav img {
+  background: inherit;
+  width: 34px;
+  height: 27px;
+}
+
+.header nav h1 {
+  background: inherit;
+  color: white;
+}
+
+.header .icons {
+  background: inherit;
+}
+
+.header .icons h1 {
+  background: inherit;
+  color: white;
+}
+/*# sourceMappingURL=header.css.map */

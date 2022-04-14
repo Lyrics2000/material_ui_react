@@ -1,0 +1,103 @@
+
+@import '../common/scss_class/variables.scss';
+.arbsHolder{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: white;
+    margin-top: 5px;
+
+    .wrong-arb{
+        
+        display: grid;
+        grid-template-columns: 0.2fr 4fr 1fr;
+        background: $base-color;
+
+        .percentage{
+            color: white;
+            background: $black-color;
+         
+
+            h2{
+
+                background: inherit;
+                font-size: 18px;
+                padding: 0.5px;
+                height: 100%;
+
+            }
+
+        
+
+        }
+
+        .sport{
+            color: white;
+            background: $odds-color;
+            h2{
+                background: inherit;
+                margin-left: 5px;
+                font-size: 18px;
+                padding: 1px;
+                height: 100%;
+            }
+        }
+
+        .icons{
+            display: flex;
+            background: $odds-color;
+            align-items: left;
+
+            .clock{
+                color:white;
+                font-size: 18px;
+                padding: 0.5px;
+                height: 100%;
+                background:inherit;
+                align-items: left;
+            }
+
+
+            
+
+        }
+
+
+    }
+
+    .event-name{
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: 0.1fr 0.1fr 0.5fr 0.1fr 0.1fr 0.1fr;
+        background: $back;
+
+        p{
+            font-size: 16px;
+
+        }
+        .change_text{
+            font-size: 15px !important;
+            padding: 1px;
+            margin-left: 10px;
+            background: $back;
+            span{
+                color: orange;
+            }
+        }
+        .change_color{
+            color: $base-color;
+        }
+
+        .event_name{
+            .country{
+                display: flex;
+                flex-wrap: wrap;
+                p{
+                    font-size: 15px !important;
+                }
+            }
+        }
+    }
+
+
+}

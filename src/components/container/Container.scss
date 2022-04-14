@@ -1,0 +1,25 @@
+@import '../common/scss_class/variables.scss';
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .first{
+     
+        border-right: 6px solid $base-color;
+        overflow-y: scroll;
+        height: 100vh;
+    
+    }
+
+   
+
+    .second{
+        
+        height: 100vh;
+       
+        background: "#000";
+
+    }
+
+}
